@@ -2,7 +2,7 @@
 # Test Logstash GeoIP Filter
 # Usage: ./test-ls-geoip.sh [LOGSTASH_HOME]
 
-LOGSTASH_HOME="${1:-/Users/mashhur/Dev/elastic/logstash}"
+LOGSTASH_HOME="${1:-$HOME/logstash}"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 GEOIP_PLUGIN_DIR="$SCRIPT_DIR/../../repos/logstash-filter-geoip"
 

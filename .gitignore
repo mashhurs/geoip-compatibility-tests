@@ -1,0 +1,21 @@
+# Test results (may contain local paths)
+results/
+
+# Plugin gems
+geoip-plugin/*.gem
+
+# Java build artifacts
+java-test/*.class
+java-test/build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
