@@ -1,0 +1,19 @@
+Sending Logstash logs to null which is now configured via log4j2.properties
+--- jar coordinate com.fasterxml.jackson.core:jackson-core already loaded with version 2.15.4 - omit version 2.19.2
+ADDING LOGSTASH X-PACK to load path: /Users/mashhur/Dev/elastic/logstash/x-pack/lib
+loading logstash extension for geoip: LogStash::GeoipDatabaseManagement::Extension
+/Users/mashhur/Dev/temp/plugins-repackaging/repos/logstash-filter-geoip/spec/filters/geoip_offline_spec.rb:6: warning: already initialized constant CITYDB
+/Users/mashhur/Dev/temp/plugins-repackaging/repos/logstash-filter-geoip/spec/filters/geoip_offline_spec.rb:7: warning: already initialized constant ASNDB
+Run options: exclude {:integration=>true, :redis=>true, :socket=>true, :performance=>true, :couchdb=>true, :elasticsearch=>true, :elasticsearch_secure=>true, :export_cypher=>true, :windows=>true}
+
+Randomized with seed 30290
+...................{"@timestamp"=>2026-02-09T17:05:52.731337Z, "server"=>{"geo"=>{"timezone"=>"America/New_York", "city_name"=>"Norwell", "continent_code"=>"NA", "country_iso_code"=>"US", "postal_code"=>"02061", "region_name"=>"Massachusetts", "region_iso_code"=>"US-MA", "location"=>{"lat"=>42.1596, "lon"=>-70.8217}, "country_name"=>"United States"}, "ip"=>"93.184.216.34", "mmdb"=>{"dma_code"=>506}}, "@version"=>"1", "message"=>"93.184.216.34"}
+.......{"@timestamp"=>2026-02-09T17:05:52.783632Z, "server"=>{"city_name"=>"Norwell", "continent_code"=>"NA", "country_code2"=>"US", "ip"=>"93.184.216.34", "latitude"=>42.1596, "country_code3"=>"US", "postal_code"=>"02061", "region_name"=>"Massachusetts", "region_code"=>"MA", "country_name"=>"United States", "timezone"=>"America/New_York", "longitude"=>-70.8217, "location"=>{"lat"=>42.1596, "lon"=>-70.8217}, "dma_code"=>506}, "@version"=>"1", "message"=>"93.184.216.34"}
+.{"@timestamp"=>2026-02-09T17:05:52.793242Z, "server"=>{"geo"=>{"timezone"=>"America/New_York", "city_name"=>"Norwell", "continent_code"=>"NA", "country_iso_code"=>"US", "postal_code"=>"02061", "region_name"=>"Massachusetts", "region_iso_code"=>"US-MA", "location"=>{"lat"=>42.1596, "lon"=>-70.8217}, "country_name"=>"United States"}, "ip"=>"93.184.216.34", "mmdb"=>{"dma_code"=>506}}, "@version"=>"1", "message"=>"93.184.216.34"}
+.................
+
+Finished in 0.86108 seconds (files took 1.77 seconds to load)
+44 examples, 0 failures
+
+Randomized with seed 30290
+

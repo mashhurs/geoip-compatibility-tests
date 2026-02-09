@@ -1,0 +1,174 @@
+2026-02-09T17:16:39.911974176Z === Installing elastic_integration plugin ===
+2026-02-09T17:16:39.925832634Z Using bundled JDK: /usr/share/logstash/jdk
+2026-02-09T17:16:44.853426303Z Validating logstash-filter-elastic_integration
+2026-02-09T17:16:47.215104512Z Resolving mixin dependencies
+2026-02-09T17:16:51.262464458Z Installing logstash-filter-elastic_integration
+2026-02-09T17:16:53.144284334Z Installation successful
+2026-02-09T17:16:54.325936376Z === Checking for upgraded GeoIP plugin ===
+2026-02-09T17:16:54.328997751Z total 34396
+2026-02-09T17:16:54.329010710Z drwxr-xr-x 3 logstash logstash       96 Feb  9 17:15 .
+2026-02-09T17:16:54.329012210Z drwxr-xr-x 1 root     root         4096 Feb  9 17:16 ..
+2026-02-09T17:16:54.329013251Z -rw-r--r-- 1 logstash logstash 35213824 Feb  9 17:15 logstash-filter-geoip-7.3.3-java.gem
+2026-02-09T17:16:54.331108126Z === Installing upgraded geoip plugin ===
+2026-02-09T17:16:54.342535668Z Using bundled JDK: /usr/share/logstash/jdk
+2026-02-09T17:17:01.005133880Z Installing logstash-filter-geoip
+2026-02-09T17:17:39.417394967Z Installation successful
+2026-02-09T17:17:40.793501176Z cleaned inactive plugin logstash-filter-geoip (7.3.2)
+2026-02-09T17:17:40.828264593Z === Plugin installation complete ===
+2026-02-09T17:17:40.835186051Z Using bundled JDK: /usr/share/logstash/jdk
+2026-02-09T17:17:44.369136844Z logstash-filter-elastic_integration (9.3.0)
+2026-02-09T17:17:44.369157803Z logstash-filter-geoip (7.3.3)
+2026-02-09T17:17:44.370454136Z === Starting Logstash ===
+2026-02-09T17:17:44.376865136Z Using bundled JDK: /usr/share/logstash/jdk
+2026-02-09T17:17:50.184769514Z Sending Logstash logs to /usr/share/logstash/logs which is now configured via log4j2.properties
+2026-02-09T17:17:50.251793708Z [2026-02-09T17:17:50,250][INFO ][logstash.runner          ] Log4j configuration path used is: /usr/share/logstash/config/log4j2.properties
+2026-02-09T17:17:50.253803708Z [2026-02-09T17:17:50,253][INFO ][logstash.runner          ] Starting Logstash {"logstash.version"=>"9.3.0", "jruby.version"=>"jruby 9.4.13.0 (3.1.4) 2025-06-10 9938a3461f OpenJDK 64-Bit Server VM 21.0.9+10-LTS on 21.0.9+10-LTS +indy +jit [aarch64-linux]"}
+2026-02-09T17:17:50.254583916Z [2026-02-09T17:17:50,254][INFO ][logstash.runner          ] JVM bootstrap flags: [-Xms1g, -Xmx1g, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -XX:+HeapDumpOnOutOfMemoryError, -Djava.security.egd=file:/dev/urandom, -Dls.cgroup.cpuacct.path.override=/, -Dls.cgroup.cpu.path.override=/, -Xms512m, -Djruby.regexp.interruptible=true, -Djruby.compile.invokedynamic=true, -Djdk.io.File.enableADS=true, -Dlog4j2.isThreadContextMapInheritable=true, --add-exports=jdk.compiler/com.sun.tools.javac.api=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.file=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.parser=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.tree=ALL-UNNAMED, --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED, --add-opens=java.base/java.security=ALL-UNNAMED, --add-opens=java.base/java.io=ALL-UNNAMED, --add-opens=java.base/java.nio.channels=ALL-UNNAMED, --add-opens=java.base/sun.nio.ch=ALL-UNNAMED, --add-opens=java.management/sun.management=ALL-UNNAMED, -Dio.netty.allocator.maxOrder=11]
+2026-02-09T17:17:50.274063833Z [2026-02-09T17:17:50,273][INFO ][org.logstash.jackson.StreamReadConstraintsUtil] Jackson default value override `logstash.jackson.stream-read-constraints.max-string-length` configured to `200000000` (logstash default)
+2026-02-09T17:17:50.274084708Z [2026-02-09T17:17:50,273][INFO ][org.logstash.jackson.StreamReadConstraintsUtil] Jackson default value override `logstash.jackson.stream-read-constraints.max-number-length` configured to `10000` (logstash default)
+2026-02-09T17:17:50.274161500Z [2026-02-09T17:17:50,274][INFO ][org.logstash.jackson.StreamReadConstraintsUtil] Jackson default value override `logstash.jackson.stream-read-constraints.max-nesting-depth` configured to `1000` (logstash default)
+2026-02-09T17:17:50.281937416Z [2026-02-09T17:17:50,281][INFO ][logstash.settings        ] Creating directory {:setting=>"path.queue", :path=>"/usr/share/logstash/data/queue"}
+2026-02-09T17:17:50.283640250Z [2026-02-09T17:17:50,283][INFO ][logstash.settings        ] Creating directory {:setting=>"path.dead_letter_queue", :path=>"/usr/share/logstash/data/dead_letter_queue"}
+2026-02-09T17:17:50.374455541Z [2026-02-09T17:17:50,374][INFO ][logstash.agent           ] No persistent UUID file found. Generating new UUID {:uuid=>"0ce62d6c-4c80-4cf0-bad6-541d0dfe88d7", :path=>"/usr/share/logstash/data/uuid"}
+2026-02-09T17:17:50.656541041Z [2026-02-09T17:17:50,656][INFO ][logstash.agent           ] Successfully started Logstash API endpoint {:port=>9600, :ssl_enabled=>false}
+2026-02-09T17:17:50.901842708Z [2026-02-09T17:17:50,901][INFO ][org.reflections.Reflections] Reflections took 71 ms to scan 1 urls, producing 163 keys and 559 values
+2026-02-09T17:17:50.943034333Z [2026-02-09T17:17:50,942][INFO ][logstash.codecs.json     ] ECS compatibility is enabled but `target` option was not specified. This may cause fields to be set at the top-level of the event where they are likely to clash with the Elastic Common Schema. It is recommended to set the `target` option to avoid potential schema conflicts (if your data is ECS compliant or non-conflicting, feel free to ignore this message)
+2026-02-09T17:17:51.122728958Z [2026-02-09T17:17:51,122][INFO ][logstash.javapipeline    ][main] Pipeline `main` is configured with `pipeline.ecs_compatibility: v8` setting. All plugins in this pipeline will default to `ecs_compatibility => v8` unless explicitly configured otherwise.
+2026-02-09T17:17:51.133127167Z [2026-02-09T17:17:51,132][INFO ][logstash.outputs.elasticsearch][main] New Elasticsearch output {:class=>"LogStash::Outputs::ElasticSearch", :hosts=>["http://elasticsearch-9:9200"]}
+2026-02-09T17:17:51.219996833Z [2026-02-09T17:17:51,219][INFO ][logstash.outputs.elasticsearch][main] Elasticsearch pool URLs updated {:changes=>{:removed=>[], :added=>[http://elasticsearch-9:9200/]}}
+2026-02-09T17:17:51.292992250Z [2026-02-09T17:17:51,292][INFO ][logstash.outputs.elasticsearch][main] Connected to ES instance {:url=>"http://elasticsearch-9:9200/"}
+2026-02-09T17:17:51.293284417Z [2026-02-09T17:17:51,293][INFO ][logstash.outputs.elasticsearch][main] Elasticsearch version determined (9.3.0) {:es_version=>9}
+2026-02-09T17:17:51.385851458Z [2026-02-09T17:17:51,385][INFO ][co.elastic.logstash.filters.elasticintegration.PreflightCheck][main] Connected to Elasticsearch version: 9.3.0
+2026-02-09T17:17:51.385880000Z [2026-02-09T17:17:51,385][INFO ][co.elastic.logstash.filters.elasticintegration.PreflightCheck][main] Elasticsearch build_flavor: default
+2026-02-09T17:17:51.390574375Z [2026-02-09T17:17:51,390][INFO ][logstash.filters.elasticintegration][main] by not manually configuring self-managed databases with `geoip_database_directory => ...` you accept and agree to the MaxMind EULA, which allows Elastic Integrations to use Logstash's Geoip Database Management service. For more details please visit https://www.maxmind.com/en/geolite2/eula
+2026-02-09T17:17:55.441988335Z [2026-02-09T17:17:55,441][INFO ][logstash.geoipdatabasemanagement.manager][main] managed geoip database has been updated on disk {:database_type=>"ASN", :database_path=>"/usr/share/logstash/data/geoip_database_management/1770657471/GeoLite2-ASN.mmdb"}
+2026-02-09T17:17:55.509178960Z [2026-02-09T17:17:55,508][INFO ][logstash.geoipdatabasemanagement.manager][main] managed geoip database has been updated on disk {:database_type=>"City", :database_path=>"/usr/share/logstash/data/geoip_database_management/1770657471/GeoLite2-City.mmdb"}
+2026-02-09T17:17:56.210303336Z [2026-02-09T17:17:56,210][WARN ][logstash.filters.elasticintegration][main] `elastic_integration` plugin is unable to verify user privileges. It has started with unsafe mode which may cause unexpected failure. Enabling security in Elasticsearch and using user authentication is recommended.
+2026-02-09T17:17:56.214151377Z [2026-02-09T17:17:56,213][WARN ][co.elastic.logstash.filters.elasticintegration.PreflightCheck][main] Elasticsearch license.type is `basic`
+2026-02-09T17:17:56.214438836Z [2026-02-09T17:17:56,214][INFO ][logstash.filters.elasticintegration][main] This 9.3.0 version of plugin embedded Ingest node components from Elasticsearch 9.3
+2026-02-09T17:17:56.214801586Z [2026-02-09T17:17:56,214][WARN ][logstash.filters.geoip   ][main] ECS expect `target` value `[source][geo]` in ["client", "destination", "host", "observer", "server", "source"]
+2026-02-09T17:17:56.225264461Z [2026-02-09T17:17:56,225][INFO ][logstash.filters.geoip.databasemanager][main] By not manually configuring a database path with `database =>`, you accepted and agreed MaxMind EULA. For more details please visit https://www.maxmind.com/en/geolite2/eula
+2026-02-09T17:17:56.225451336Z [2026-02-09T17:17:56,225][INFO ][logstash.filters.geoip   ][main] Using geoip database {:path=>"/usr/share/logstash/data/geoip_database_management/1770657471/GeoLite2-City.mmdb"}
+2026-02-09T17:17:56.242809002Z [2026-02-09T17:17:56,242][INFO ][logstash.javapipeline    ][main] Starting pipeline {:pipeline_id=>"main", "pipeline.workers"=>12, "pipeline.batch.size"=>125, "pipeline.batch.delay"=>50, "pipeline.max_inflight"=>1500, "batch_metric_sampling"=>"minimal", "pipeline.sources"=>["/usr/share/logstash/pipeline/geoip-test.conf"], :thread=>"#<Thread:0x22d12e19 /usr/share/logstash/logstash-core/lib/logstash/java_pipeline.rb:147 run>"}
+2026-02-09T17:17:56.781020419Z [2026-02-09T17:17:56,780][INFO ][logstash.javapipeline    ][main] Pipeline Java execution initialization time {"seconds"=>0.54}
+2026-02-09T17:17:56.785147128Z [2026-02-09T17:17:56,784][INFO ][logstash.javapipeline    ][main] Pipeline started {"pipeline.id"=>"main"}
+2026-02-09T17:17:56.806087294Z [2026-02-09T17:17:56,805][INFO ][logstash.agent           ] Pipelines running {:count=>1, :running_pipelines=>[:main], :non_running_pipelines=>[]}
+2026-02-09T17:17:57.220867128Z {
+2026-02-09T17:17:57.220909169Z                 "host" => {
+2026-02-09T17:17:57.220914378Z         "name" => "31e86ee34c86"
+2026-02-09T17:17:57.220916253Z     },
+2026-02-09T17:17:57.220917628Z               "source" => {
+2026-02-09T17:17:57.220918878Z         "geo" => {
+2026-02-09T17:17:57.220920044Z               "continent_name" => "North America",
+2026-02-09T17:17:57.220921503Z                          "geo" => {
+2026-02-09T17:17:57.220922711Z                     "country_name" => "United States",
+2026-02-09T17:17:57.220924003Z                 "country_iso_code" => "US",
+2026-02-09T17:17:57.220925253Z                         "location" => {
+2026-02-09T17:17:57.220926419Z                     "lon" => -97.822,
+2026-02-09T17:17:57.220927586Z                     "lat" => 37.751
+2026-02-09T17:17:57.220928711Z                 },
+2026-02-09T17:17:57.220929753Z                   "continent_code" => "NA",
+2026-02-09T17:17:57.220930961Z                         "timezone" => "America/Chicago"
+2026-02-09T17:17:57.220932169Z             },
+2026-02-09T17:17:57.220933211Z             "country_iso_code" => "US",
+2026-02-09T17:17:57.220934378Z                 "country_name" => "United States",
+2026-02-09T17:17:57.220935544Z                     "location" => {
+2026-02-09T17:17:57.220936628Z                 "lon" => -97.822,
+2026-02-09T17:17:57.220938169Z                 "lat" => 37.751
+2026-02-09T17:17:57.220939294Z             },
+2026-02-09T17:17:57.220940336Z                           "ip" => "93.184.216.34"
+2026-02-09T17:17:57.220941544Z         },
+2026-02-09T17:17:57.220942544Z          "ip" => "93.184.216.34"
+2026-02-09T17:17:57.220943711Z     },
+2026-02-09T17:17:57.220944711Z          "data_stream" => {
+2026-02-09T17:17:57.220945794Z           "dataset" => "geoip.test",
+2026-02-09T17:17:57.220946961Z              "type" => "logs",
+2026-02-09T17:17:57.220948128Z         "namespace" => "default"
+2026-02-09T17:17:57.220949253Z     },
+2026-02-09T17:17:57.220950253Z           "@timestamp" => 2026-02-04T12:00:02.000Z,
+2026-02-09T17:17:57.220951378Z             "@version" => "1",
+2026-02-09T17:17:57.220952544Z        "calculated_by" => [
+2026-02-09T17:17:57.220953669Z         [0] "elastic_integration",
+2026-02-09T17:17:57.220954753Z         [1] "geoip"
+2026-02-09T17:17:57.220969169Z     ],
+2026-02-09T17:17:57.220970294Z                "event" => {
+2026-02-09T17:17:57.220971586Z         "original" => "{\"@timestamp\": \"2026-02-04T12:00:02Z\", \"message\": \"test event\", \"source\": {\"ip\": \"93.184.216.34\"}, \"data_stream\": {\"type\": \"logs\", \"dataset\": \"geoip.test\", \"namespace\": \"default\"}}",
+2026-02-09T17:17:57.220974336Z         "sequence" => 0
+2026-02-09T17:17:57.220975461Z     },
+2026-02-09T17:17:57.220976461Z              "message" => "test event",
+2026-02-09T17:17:57.220977628Z     "logstash_version" => "9.x"
+2026-02-09T17:17:57.220978794Z }
+2026-02-09T17:17:57.248670795Z {
+2026-02-09T17:17:57.248688378Z                 "host" => {
+2026-02-09T17:17:57.248690461Z         "name" => "31e86ee34c86"
+2026-02-09T17:17:57.248691836Z     },
+2026-02-09T17:17:57.248692878Z               "source" => {
+2026-02-09T17:17:57.248693961Z         "geo" => {
+2026-02-09T17:17:57.248694878Z               "continent_name" => "North America",
+2026-02-09T17:17:57.248695836Z                          "geo" => {
+2026-02-09T17:17:57.248696753Z                     "country_name" => "United States",
+2026-02-09T17:17:57.248697711Z                 "country_iso_code" => "US",
+2026-02-09T17:17:57.248698628Z                         "location" => {
+2026-02-09T17:17:57.248699503Z                     "lon" => -97.822,
+2026-02-09T17:17:57.248700461Z                     "lat" => 37.751
+2026-02-09T17:17:57.248701420Z                 },
+2026-02-09T17:17:57.248702295Z                   "continent_code" => "NA",
+2026-02-09T17:17:57.248703211Z                         "timezone" => "America/Chicago"
+2026-02-09T17:17:57.248704170Z             },
+2026-02-09T17:17:57.248705003Z             "country_iso_code" => "US",
+2026-02-09T17:17:57.248705920Z                 "country_name" => "United States",
+2026-02-09T17:17:57.248706961Z                     "location" => {
+2026-02-09T17:17:57.248707920Z                 "lon" => -97.822,
+2026-02-09T17:17:57.248708795Z                 "lat" => 37.751
+2026-02-09T17:17:57.248709711Z             },
+2026-02-09T17:17:57.248710461Z                           "ip" => "8.8.8.8"
+2026-02-09T17:17:57.248711420Z         },
+2026-02-09T17:17:57.248712253Z          "ip" => "8.8.8.8"
+2026-02-09T17:17:57.248713086Z     },
+2026-02-09T17:17:57.248713836Z          "data_stream" => {
+2026-02-09T17:17:57.248714711Z           "dataset" => "geoip.test",
+2026-02-09T17:17:57.248722711Z              "type" => "logs",
+2026-02-09T17:17:57.248723836Z         "namespace" => "default"
+2026-02-09T17:17:57.248724753Z     },
+2026-02-09T17:17:57.248725503Z           "@timestamp" => 2026-02-04T12:00:00.000Z,
+2026-02-09T17:17:57.248726420Z             "@version" => "1",
+2026-02-09T17:17:57.248727336Z        "calculated_by" => [
+2026-02-09T17:17:57.248728211Z         [0] "elastic_integration",
+2026-02-09T17:17:57.248729211Z         [1] "geoip"
+2026-02-09T17:17:57.248730086Z     ],
+2026-02-09T17:17:57.248730795Z                "event" => {
+2026-02-09T17:17:57.248731753Z         "original" => "{\"@timestamp\": \"2026-02-04T12:00:00Z\", \"message\": \"test event\", \"source\": {\"ip\": \"8.8.8.8\"}, \"data_stream\": {\"type\": \"logs\", \"dataset\": \"geoip.test\", \"namespace\": \"default\"}}",
+2026-02-09T17:17:57.248733878Z         "sequence" => 0
+2026-02-09T17:17:57.248734753Z     },
+2026-02-09T17:17:57.248735503Z              "message" => "test event",
+2026-02-09T17:17:57.248736461Z     "logstash_version" => "9.x"
+2026-02-09T17:17:57.248737420Z }
+2026-02-09T17:17:57.252038753Z {
+2026-02-09T17:17:57.252054086Z                 "host" => {
+2026-02-09T17:17:57.252056211Z         "name" => "31e86ee34c86"
+2026-02-09T17:17:57.252057378Z     },
+2026-02-09T17:17:57.252058295Z               "source" => {
+2026-02-09T17:17:57.252059295Z         "geo" => {},
+2026-02-09T17:17:57.252060420Z          "ip" => "1.1.1.1"
+2026-02-09T17:17:57.252061545Z     },
+2026-02-09T17:17:57.252062336Z          "data_stream" => {
+2026-02-09T17:17:57.252063253Z           "dataset" => "geoip.test",
+2026-02-09T17:17:57.252064295Z              "type" => "logs",
+2026-02-09T17:17:57.252065253Z         "namespace" => "default"
+2026-02-09T17:17:57.252066211Z     },
+2026-02-09T17:17:57.252066961Z           "@timestamp" => 2026-02-04T12:00:01.000Z,
+2026-02-09T17:17:57.252068003Z             "@version" => "1",
+2026-02-09T17:17:57.252069045Z        "calculated_by" => "elastic_integration",
+2026-02-09T17:17:57.252070086Z                "event" => {
+2026-02-09T17:17:57.252071086Z         "original" => "{\"@timestamp\": \"2026-02-04T12:00:01Z\", \"message\": \"test event\", \"source\": {\"ip\": \"1.1.1.1\"}, \"data_stream\": {\"type\": \"logs\", \"dataset\": \"geoip.test\", \"namespace\": \"default\"}}",
+2026-02-09T17:17:57.252073545Z         "sequence" => 0
+2026-02-09T17:17:57.252080545Z     },
+2026-02-09T17:17:57.252081461Z              "message" => "test event",
+2026-02-09T17:17:57.252082420Z                 "tags" => [
+2026-02-09T17:17:57.252083378Z         [0] "_geoip_filter_lookup_failure"
+2026-02-09T17:17:57.252084336Z     ],
+2026-02-09T17:17:57.252085128Z     "logstash_version" => "9.x"
+2026-02-09T17:17:57.252086170Z }
+2026-02-09T17:17:58.312750753Z [2026-02-09T17:17:58,312][INFO ][logstash.javapipeline    ][main] Pipeline terminated {"pipeline.id"=>"main"}
+2026-02-09T17:17:58.815652545Z [2026-02-09T17:17:58,815][INFO ][logstash.pipelinesregistry] Removed pipeline from registry successfully {:pipeline_id=>:main}
+2026-02-09T17:17:58.817720087Z [2026-02-09T17:17:58,817][INFO ][logstash.runner          ] Logstash shut down.

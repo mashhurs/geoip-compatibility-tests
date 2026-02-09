@@ -1,0 +1,123 @@
+# GeoIP Compatibility Test Environment
+# Tests geoip-filter compatibility with ES 8.19 and 9.3
+
+services:
+  # Elasticsearch 8.19
+  elasticsearch-8:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.19.0
+    container_name: es-8-geoip-test
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ingest.geoip.downloader.enabled=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+    volumes:
+      - ./test-data:/test-data:ro
+    networks:
+      - geoip-test
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200/_cluster/health | grep -q 'status.*green\\|yellow'"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  # Elasticsearch 9.3
+  elasticsearch-9:
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.3.0
+    container_name: es-9-geoip-test
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ingest.geoip.downloader.enabled=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "9201:9200"
+    volumes:
+      - ./test-data:/test-data:ro
+    networks:
+      - geoip-test
+    healthcheck:
+      test: ["CMD-SHELL", "curl -s http://localhost:9200/_cluster/health | grep -q 'status.*green\\|yellow'"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  # Logstash 8.19 with upgraded geoip plugin
+  logstash-8:
+    image: docker.elastic.co/logstash/logstash:8.19.0
+    container_name: ls-8-geoip-test
+    environment:
+      - "LS_JAVA_OPTS=-Xms512m -Xmx1g"
+      - ELASTICSEARCH_HOSTS=http://elasticsearch-8:9200
+    volumes:
+      - ./logstash-configs/ls8:/usr/share/logstash/pipeline:ro
+      - ./test-data:/test-data
+      - ./geoip-plugin:/geoip-plugin:ro
+    # Install the upgraded geoip plugin and elastic_integration before starting
+    command: >
+      bash -c "
+        echo '=== Installing elastic_integration plugin ==='
+        bin/logstash-plugin install logstash-filter-elastic_integration || echo 'elastic_integration may already be installed'
+        
+        echo '=== Checking for upgraded GeoIP plugin ==='
+        ls -la /geoip-plugin/ || echo 'geoip-plugin directory not found'
+        if ls /geoip-plugin/*.gem 1>/dev/null 2>&1; then
+          echo '=== Installing upgraded geoip plugin ==='
+          bin/logstash-plugin install --no-verify /geoip-plugin/logstash-filter-geoip-*.gem
+          echo '=== Plugin installation complete ==='
+          bin/logstash-plugin list --verbose | grep -E 'geoip|elastic_integration' || true
+        else
+          echo '=== No gem found, using bundled geoip plugin ==='
+          bin/logstash-plugin list --verbose | grep -E 'geoip|elastic_integration' || true
+        fi
+        echo '=== Starting Logstash ==='
+        bin/logstash
+      "
+    depends_on:
+      elasticsearch-8:
+        condition: service_healthy
+    networks:
+      - geoip-test
+
+  # Logstash 9.3 with upgraded geoip plugin
+  logstash-9:
+    image: docker.elastic.co/logstash/logstash:9.3.0
+    container_name: ls-9-geoip-test
+    environment:
+      - "LS_JAVA_OPTS=-Xms512m -Xmx1g"
+      - ELASTICSEARCH_HOSTS=http://elasticsearch-9:9200
+    volumes:
+      - ./logstash-configs/ls9:/usr/share/logstash/pipeline:ro
+      - ./test-data:/test-data
+      - ./geoip-plugin:/geoip-plugin:ro
+    # Install the upgraded geoip plugin and elastic_integration before starting
+    command: >
+      bash -c "
+        echo '=== Installing elastic_integration plugin ==='
+        bin/logstash-plugin install logstash-filter-elastic_integration || echo 'elastic_integration may already be installed'
+        
+        echo '=== Checking for upgraded GeoIP plugin ==='
+        ls -la /geoip-plugin/ || echo 'geoip-plugin directory not found'
+        if ls /geoip-plugin/*.gem 1>/dev/null 2>&1; then
+          echo '=== Installing upgraded geoip plugin ==='
+          bin/logstash-plugin install --no-verify /geoip-plugin/logstash-filter-geoip-*.gem
+          echo '=== Plugin installation complete ==='
+          bin/logstash-plugin list --verbose | grep -E 'geoip|elastic_integration' || true
+        else
+          echo '=== No gem found, using bundled geoip plugin ==='
+          bin/logstash-plugin list --verbose | grep -E 'geoip|elastic_integration' || true
+        fi
+        echo '=== Starting Logstash ==='
+        bin/logstash
+      "
+    depends_on:
+      elasticsearch-9:
+        condition: service_healthy
+    networks:
+      - geoip-test
+
+networks:
+  geoip-test:
+    driver: bridge

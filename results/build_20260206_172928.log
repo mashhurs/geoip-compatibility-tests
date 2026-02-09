@@ -1,0 +1,1228 @@
+> Task :clean
+> Task :generateGemJarRequiresFile
+
+> Task :compileJava
+Note: /Users/mashhur/Dev/temp/plugins-repackaging/repos/logstash-filter-geoip/src/main/java/org/logstash/filters/geoip/GeoIPFilter.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :jar
+> Task :unzip UP-TO-DATE
+> Task :vendor
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+
+> Task :test
+
+DatabaseTest > testIspDefaultFields() STARTED
+
+DatabaseTest > testIspDefaultFields() PASSED
+
+DatabaseTest > fromDatabaseTypeWithKnownDatabaseTypesShouldReturnDatabase() STARTED
+
+DatabaseTest > fromDatabaseTypeWithKnownDatabaseTypesShouldReturnDatabase() PASSED
+
+DatabaseTest > testAsnDefaultFields() STARTED
+
+DatabaseTest > testAsnDefaultFields() PASSED
+
+DatabaseTest > testCityDefaultFields() STARTED
+
+DatabaseTest > testCityDefaultFields() PASSED
+
+DatabaseTest > testEnterpriseDefaultFields() STARTED
+
+DatabaseTest > testEnterpriseDefaultFields() PASSED
+
+DatabaseTest > testCountryDefaultFields() STARTED
+
+DatabaseTest > testCountryDefaultFields() PASSED
+
+DatabaseTest > testDomainDefaultFields() STARTED
+
+DatabaseTest > testDomainDefaultFields() PASSED
+
+DatabaseTest > testAnonymousIpDefaultFields() STARTED
+
+DatabaseTest > testAnonymousIpDefaultFields() PASSED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [1] CITY STARTED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [1] CITY PASSED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [2] COUNTRY STARTED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [2] COUNTRY PASSED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [3] DOMAIN STARTED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [3] DOMAIN PASSED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [4] ASN STARTED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [4] ASN PASSED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [5] ISP STARTED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [5] ISP PASSED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [6] ANONYMOUS_IP STARTED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [6] ANONYMOUS_IP PASSED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [7] ENTERPRISE STARTED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [7] ENTERPRISE PASSED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [8] UNKNOWN STARTED
+
+DatabaseTest > fromDatabaseTypeWithMaxMindFilesShouldReturnDatabase(Database) > [8] UNKNOWN PASSED
+
+FieldTest > parseFieldWithInvalidFieldNameShouldThrown() STARTED
+
+FieldTest > parseFieldWithInvalidFieldNameShouldThrown() PASSED
+
+FieldTest > testFieldNames() STARTED
+
+FieldTest > testFieldNames() PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [1] AUTONOMOUS_SYSTEM_NUMBER STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [1] AUTONOMOUS_SYSTEM_NUMBER PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [2] AUTONOMOUS_SYSTEM_ORGANIZATION STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [2] AUTONOMOUS_SYSTEM_ORGANIZATION PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [3] CITY_NAME STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [3] CITY_NAME PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [4] COUNTRY_NAME STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [4] COUNTRY_NAME PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [5] CONTINENT_CODE STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [5] CONTINENT_CODE PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [6] CONTINENT_NAME STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [6] CONTINENT_NAME PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [7] COUNTRY_CODE2 STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [7] COUNTRY_CODE2 PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [8] COUNTRY_CODE3 STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [8] COUNTRY_CODE3 PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [9] DOMAIN STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [9] DOMAIN PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [10] IP STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [10] IP PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [11] ISP STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [11] ISP PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [12] POSTAL_CODE STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [12] POSTAL_CODE PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [13] DMA_CODE STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [13] DMA_CODE PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [14] REGION_NAME STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [14] REGION_NAME PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [15] REGION_CODE STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [15] REGION_CODE PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [16] REGION_ISO_CODE STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [16] REGION_ISO_CODE PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [17] TIMEZONE STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [17] TIMEZONE PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [18] LOCATION STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [18] LOCATION PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [19] LATITUDE STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [19] LATITUDE PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [20] LONGITUDE STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [20] LONGITUDE PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [21] ORGANIZATION STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [21] ORGANIZATION PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [22] NETWORK STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [22] NETWORK PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [23] HOSTING_PROVIDER STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [23] HOSTING_PROVIDER PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [24] TOR_EXIT_NODE STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [24] TOR_EXIT_NODE PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [25] ANONYMOUS_VPN STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [25] ANONYMOUS_VPN PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [26] ANONYMOUS STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [26] ANONYMOUS PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [27] PUBLIC_PROXY STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [27] PUBLIC_PROXY PASSED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [28] RESIDENTIAL_PROXY STARTED
+
+FieldTest > parseFieldWithValidFieldNameShouldReturnField(Field) > [28] RESIDENTIAL_PROXY PASSED
+
+GeoIPFilterTest > handleEventWithGeoIp2CityDatabaseShouldProperlyCreateEvent(boolean) > [1] true STARTED
+
+GeoIPFilterTest > handleEventWithGeoIp2CityDatabaseShouldProperlyCreateEvent(boolean) > [1] true PASSED
+
+GeoIPFilterTest > handleEventWithGeoIp2CityDatabaseShouldProperlyCreateEvent(boolean) > [2] false STARTED
+
+GeoIPFilterTest > handleEventWithGeoIp2CityDatabaseShouldProperlyCreateEvent(boolean) > [2] false PASSED
+
+GeoIPFilterTest > givenDomainDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure() STARTED
+
+GeoIPFilterTest > givenDomainDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure() PASSED
+
+GeoIPFilterTest > handleEventWithNoCustomFieldsShouldUseDatabasesDefaultFields() STARTED
+
+GeoIPFilterTest > handleEventWithNoCustomFieldsShouldUseDatabasesDefaultFields() PASSED
+
+GeoIPFilterTest > handleEventWithGeoIp2IspDatabaseShouldProperlyCreateEvent(boolean) > [1] true STARTED
+
+GeoIPFilterTest > handleEventWithGeoIp2IspDatabaseShouldProperlyCreateEvent(boolean) > [1] true PASSED
+
+GeoIPFilterTest > handleEventWithGeoIp2IspDatabaseShouldProperlyCreateEvent(boolean) > [2] false STARTED
+
+GeoIPFilterTest > handleEventWithGeoIp2IspDatabaseShouldProperlyCreateEvent(boolean) > [2] false PASSED
+
+GeoIPFilterTest > handleEventWithGeoIp2CountryDatabaseShouldProperlyCreateEvent(boolean) > [1] true STARTED
+
+GeoIPFilterTest > handleEventWithGeoIp2CountryDatabaseShouldProperlyCreateEvent(boolean) > [1] true PASSED
+
+GeoIPFilterTest > handleEventWithGeoIp2CountryDatabaseShouldProperlyCreateEvent(boolean) > [2] false STARTED
+
+GeoIPFilterTest > handleEventWithGeoIp2CountryDatabaseShouldProperlyCreateEvent(boolean) > [2] false PASSED
+
+GeoIPFilterTest > handleEventWithGeoIp2DomainDatabaseShouldProperlyCreateEvent(boolean) > [1] true STARTED
+
+GeoIPFilterTest > handleEventWithGeoIp2DomainDatabaseShouldProperlyCreateEvent(boolean) > [1] true PASSED
+
+GeoIPFilterTest > handleEventWithGeoIp2DomainDatabaseShouldProperlyCreateEvent(boolean) > [2] false STARTED
+
+GeoIPFilterTest > handleEventWithGeoIp2DomainDatabaseShouldProperlyCreateEvent(boolean) > [2] false PASSED
+
+GeoIPFilterTest > handleEventWithNoCustomFieldsShouldProperlyAddCityFields(boolean) > [1] true STARTED
+
+GeoIPFilterTest > handleEventWithNoCustomFieldsShouldProperlyAddCityFields(boolean) > [1] true PASSED
+
+GeoIPFilterTest > handleEventWithNoCustomFieldsShouldProperlyAddCityFields(boolean) > [2] false STARTED
+
+GeoIPFilterTest > handleEventWithNoCustomFieldsShouldProperlyAddCityFields(boolean) > [2] false PASSED
+
+GeoIPFilterTest > handleEventWithGeoLite2AsnDatabaseShouldProperlyCreateEvent(boolean) > [1] true STARTED
+
+GeoIPFilterTest > handleEventWithGeoLite2AsnDatabaseShouldProperlyCreateEvent(boolean) > [1] true PASSED
+
+GeoIPFilterTest > handleEventWithGeoLite2AsnDatabaseShouldProperlyCreateEvent(boolean) > [2] false STARTED
+
+GeoIPFilterTest > handleEventWithGeoLite2AsnDatabaseShouldProperlyCreateEvent(boolean) > [2] false PASSED
+
+GeoIPFilterTest > handleEventWithListSourceFieldShouldParseFirstIp() STARTED
+
+GeoIPFilterTest > handleEventWithListSourceFieldShouldParseFirstIp() PASSED
+
+GeoIPFilterTest > handleEventWithGeoIp2AnonymousIpDatabaseShouldProperlyCreateEvent(boolean) > [1] true STARTED
+
+GeoIPFilterTest > handleEventWithGeoIp2AnonymousIpDatabaseShouldProperlyCreateEvent(boolean) > [1] true PASSED
+
+GeoIPFilterTest > handleEventWithGeoIp2AnonymousIpDatabaseShouldProperlyCreateEvent(boolean) > [2] false STARTED
+
+GeoIPFilterTest > handleEventWithGeoIp2AnonymousIpDatabaseShouldProperlyCreateEvent(boolean) > [2] false PASSED
+
+GeoIPFilterTest > handleEventWithGeoIp2EnterpriseDatabaseShouldProperlyCreateEvent(boolean) > [1] true STARTED
+
+GeoIPFilterTest > handleEventWithGeoIp2EnterpriseDatabaseShouldProperlyCreateEvent(boolean) > [1] true PASSED
+
+GeoIPFilterTest > handleEventWithGeoIp2EnterpriseDatabaseShouldProperlyCreateEvent(boolean) > [2] false STARTED
+
+GeoIPFilterTest > handleEventWithGeoIp2EnterpriseDatabaseShouldProperlyCreateEvent(boolean) > [2] false PASSED
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [1] src/test/resources/maxmind-test-data/GeoIP2-Country-Test.mmdb STARTED
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [1] src/test/resources/maxmind-test-data/GeoIP2-Country-Test.mmdb STANDARD_OUT
+    [ERROR] 2026-02-06 17:29:30.616 [Test worker] GeoIPFilter - Error from GeoIP database. field=ip, value=216.160.83.60
+    org.logstash.filters.geoip.GeoIPFilter$GeoIp2InvalidCustomFieldException: The database contains invalid custom field, which caused deserialization to fail.
+    	at org.logstash.filters.geoip.GeoIPFilter.retrieveCountryGeoData(GeoIPFilter.java:359)
+    	at org.logstash.filters.geoip.GeoIPFilter.handleEvent(GeoIPFilter.java:178)
+    	at org.logstash.filters.geoip.GeoIPFilterTest.givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(GeoIPFilterTest.java:281)
+    	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+    	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:766)
+    	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestTemplateMethod(TimeoutExtension.java:94)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:231)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:209)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:141)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.lambda$execute$3(TestTemplateTestDescriptor.java:109)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+    	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:109)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:43)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+    	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+    	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+    	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+    	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+    	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+    	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+    	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+    	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+    	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+    	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+    	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+    	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+    	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+    	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+    	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+    	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+    	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+    Caused by: com.maxmind.db.DeserializationException: Error getting record for IP /216.160.83.60 -  Error creating object of type: Country -  argument type mismatch in names MMDB Type: java.util.HashMap Java Type: java.util.Map argument type mismatch in is_in_european_union MMDB Type: java.lang.Integer Java Type: java.lang.Boolean argument type mismatch in geoname_id MMDB Type: java.math.BigInteger Java Type: java.lang.Long
+    	at com.maxmind.db.Reader.getRecord(Reader.java:188)
+    	at com.maxmind.geoip2.DatabaseReader.get(DatabaseReader.java:285)
+    	at com.maxmind.geoip2.DatabaseReader.getCountry(DatabaseReader.java:331)
+    	at com.maxmind.geoip2.DatabaseReader.country(DatabaseReader.java:314)
+    	at org.logstash.filters.geoip.GeoIPFilter.retrieveCountryGeoData(GeoIPFilter.java:357)
+    	... 146 more
+    Caused by: com.maxmind.db.DeserializationException: Error creating object of type: Country -  argument type mismatch in names MMDB Type: java.util.HashMap Java Type: java.util.Map argument type mismatch in is_in_european_union MMDB Type: java.lang.Integer Java Type: java.lang.Boolean argument type mismatch in geoname_id MMDB Type: java.math.BigInteger Java Type: java.lang.Long
+    	at com.maxmind.db.Decoder.decodeMapIntoObject(Decoder.java:454)
+    	at com.maxmind.db.Decoder.decodeMap(Decoder.java:337)
+    	at com.maxmind.db.Decoder.decodeByType(Decoder.java:158)
+    	at com.maxmind.db.Decoder.decode(Decoder.java:135)
+    	at com.maxmind.db.Decoder.decodeMapIntoObject(Decoder.java:430)
+    	at com.maxmind.db.Decoder.decodeMap(Decoder.java:337)
+    	at com.maxmind.db.Decoder.decodeByType(Decoder.java:158)
+    	at com.maxmind.db.Decoder.decode(Decoder.java:135)
+    	at com.maxmind.db.Decoder.decode(Decoder.java:72)
+    	at com.maxmind.db.Reader.resolveDataPointer(Reader.java:413)
+    	at com.maxmind.db.Reader.getRecord(Reader.java:185)
+    	... 150 more
+    Caused by: java.lang.IllegalArgumentException: argument type mismatch
+    	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:65)
+    	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+    	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+    	at com.maxmind.db.Decoder.decodeMapIntoObject(Decoder.java:437)
+    	... 160 more
+    Caused by: java.lang.ClassCastException: Cannot cast java.lang.Integer to java.lang.Boolean
+    	at java.base/java.lang.Class.cast(Class.java:4067)
+    	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+    	... 163 more
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [1] src/test/resources/maxmind-test-data/GeoIP2-Country-Test.mmdb PASSED
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [2] src/test/resources/maxmind-test-data/GeoIP2-Anonymous-IP-Test.mmdb STARTED
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [2] src/test/resources/maxmind-test-data/GeoIP2-Anonymous-IP-Test.mmdb STANDARD_OUT
+    [ERROR] 2026-02-06 17:29:30.622 [Test worker] GeoIPFilter - Error from GeoIP database. field=ip, value=216.160.83.60
+    org.logstash.filters.geoip.GeoIPFilter$GeoIp2InvalidCustomFieldException: The database contains invalid custom field, which caused deserialization to fail.
+    	at org.logstash.filters.geoip.GeoIPFilter.retrieveAnonymousIpGeoData(GeoIPFilter.java:614)
+    	at org.logstash.filters.geoip.GeoIPFilter.handleEvent(GeoIPFilter.java:193)
+    	at org.logstash.filters.geoip.GeoIPFilterTest.givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(GeoIPFilterTest.java:281)
+    	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+    	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:766)
+    	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestTemplateMethod(TimeoutExtension.java:94)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:231)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:209)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:141)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.lambda$execute$3(TestTemplateTestDescriptor.java:109)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+    	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:109)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:43)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+    	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+    	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+    	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+    	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+    	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+    	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+    	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+    	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+    	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+    	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+    	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+    	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+    	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+    	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+    	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+    	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+    	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+    Caused by: com.maxmind.db.DeserializationException: Error getting record for IP /216.160.83.60 -  Error creating object of type: AnonymousIpResponse -  argument type mismatch in is_anonymous MMDB Type: java.lang.Integer Java Type: java.lang.Boolean
+    	at com.maxmind.db.Reader.getRecord(Reader.java:188)
+    	at com.maxmind.geoip2.DatabaseReader.get(DatabaseReader.java:285)
+    	at com.maxmind.geoip2.DatabaseReader.getAnonymousIp(DatabaseReader.java:417)
+    	at com.maxmind.geoip2.DatabaseReader.anonymousIp(DatabaseReader.java:400)
+    	at org.logstash.filters.geoip.GeoIPFilter.retrieveAnonymousIpGeoData(GeoIPFilter.java:612)
+    	... 146 more
+    Caused by: com.maxmind.db.DeserializationException: Error creating object of type: AnonymousIpResponse -  argument type mismatch in is_anonymous MMDB Type: java.lang.Integer Java Type: java.lang.Boolean
+    	at com.maxmind.db.Decoder.decodeMapIntoObject(Decoder.java:454)
+    	at com.maxmind.db.Decoder.decodeMap(Decoder.java:337)
+    	at com.maxmind.db.Decoder.decodeByType(Decoder.java:158)
+    	at com.maxmind.db.Decoder.decode(Decoder.java:135)
+    	at com.maxmind.db.Decoder.decode(Decoder.java:72)
+    	at com.maxmind.db.Reader.resolveDataPointer(Reader.java:413)
+    	at com.maxmind.db.Reader.getRecord(Reader.java:185)
+    	... 150 more
+    Caused by: java.lang.IllegalArgumentException: argument type mismatch
+    	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:65)
+    	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+    	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+    	at com.maxmind.db.Decoder.decodeMapIntoObject(Decoder.java:437)
+    	... 156 more
+    Caused by: java.lang.ClassCastException: Cannot cast java.lang.Integer to java.lang.Boolean
+    	at java.base/java.lang.Class.cast(Class.java:4067)
+    	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+    	... 159 more
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [2] src/test/resources/maxmind-test-data/GeoIP2-Anonymous-IP-Test.mmdb PASSED
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [3] src/test/resources/maxmind-test-data/GeoIP2-Enterprise-Test.mmdb STARTED
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [3] src/test/resources/maxmind-test-data/GeoIP2-Enterprise-Test.mmdb STANDARD_OUT
+    [ERROR] 2026-02-06 17:29:30.624 [Test worker] GeoIPFilter - Error from GeoIP database. field=ip, value=216.160.83.60
+    org.logstash.filters.geoip.GeoIPFilter$GeoIp2InvalidCustomFieldException: The database contains invalid custom field, which caused deserialization to fail.
+    	at org.logstash.filters.geoip.GeoIPFilter.retrieveEnterpriseGeoData(GeoIPFilter.java:501)
+    	at org.logstash.filters.geoip.GeoIPFilter.handleEvent(GeoIPFilter.java:190)
+    	at org.logstash.filters.geoip.GeoIPFilterTest.givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(GeoIPFilterTest.java:281)
+    	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+    	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:766)
+    	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestTemplateMethod(TimeoutExtension.java:94)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:231)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:209)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:141)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.lambda$execute$3(TestTemplateTestDescriptor.java:109)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+    	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:109)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:43)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+    	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+    	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+    	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+    	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+    	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+    	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+    	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+    	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+    	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+    	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+    	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+    	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+    	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+    	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+    	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+    	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+    	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+    Caused by: com.maxmind.db.DeserializationException: Error getting record for IP /216.160.83.60 -  Error creating object of type: Traits -  argument type mismatch in autonomous_system_number MMDB Type: java.lang.Integer Java Type: java.lang.Long
+    	at com.maxmind.db.Reader.getRecord(Reader.java:188)
+    	at com.maxmind.geoip2.DatabaseReader.get(DatabaseReader.java:285)
+    	at com.maxmind.geoip2.DatabaseReader.getEnterprise(DatabaseReader.java:697)
+    	at com.maxmind.geoip2.DatabaseReader.enterprise(DatabaseReader.java:680)
+    	at org.logstash.filters.geoip.GeoIPFilter.retrieveEnterpriseGeoData(GeoIPFilter.java:499)
+    	... 146 more
+    Caused by: com.maxmind.db.DeserializationException: Error creating object of type: Traits -  argument type mismatch in autonomous_system_number MMDB Type: java.lang.Integer Java Type: java.lang.Long
+    	at com.maxmind.db.Decoder.decodeMapIntoObject(Decoder.java:454)
+    	at com.maxmind.db.Decoder.decodeMap(Decoder.java:337)
+    	at com.maxmind.db.Decoder.decodeByType(Decoder.java:158)
+    	at com.maxmind.db.Decoder.decode(Decoder.java:135)
+    	at com.maxmind.db.Decoder.decodeMapIntoObject(Decoder.java:430)
+    	at com.maxmind.db.Decoder.decodeMap(Decoder.java:337)
+    	at com.maxmind.db.Decoder.decodeByType(Decoder.java:158)
+    	at com.maxmind.db.Decoder.decode(Decoder.java:135)
+    	at com.maxmind.db.Decoder.decode(Decoder.java:72)
+    	at com.maxmind.db.Reader.resolveDataPointer(Reader.java:413)
+    	at com.maxmind.db.Reader.getRecord(Reader.java:185)
+    	... 150 more
+    Caused by: java.lang.IllegalArgumentException: argument type mismatch
+    	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:65)
+    	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+    	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+    	at com.maxmind.db.Decoder.decodeMapIntoObject(Decoder.java:437)
+    	... 160 more
+    Caused by: java.lang.ClassCastException: Cannot cast java.lang.Integer to java.lang.Long
+    	at java.base/java.lang.Class.cast(Class.java:4067)
+    	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+    	... 163 more
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [3] src/test/resources/maxmind-test-data/GeoIP2-Enterprise-Test.mmdb PASSED
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [4] src/test/resources/maxmind-test-data/GeoIP2-ISP-Test.mmdb STARTED
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [4] src/test/resources/maxmind-test-data/GeoIP2-ISP-Test.mmdb STANDARD_OUT
+    [ERROR] 2026-02-06 17:29:30.626 [Test worker] GeoIPFilter - Error from GeoIP database. field=ip, value=216.160.83.60
+    org.logstash.filters.geoip.GeoIPFilter$GeoIp2InvalidCustomFieldException: The database contains invalid custom field, which caused deserialization to fail.
+    	at org.logstash.filters.geoip.GeoIPFilter.retrieveIspGeoData(GeoIPFilter.java:399)
+    	at org.logstash.filters.geoip.GeoIPFilter.handleEvent(GeoIPFilter.java:184)
+    	at org.logstash.filters.geoip.GeoIPFilterTest.givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(GeoIPFilterTest.java:281)
+    	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+    	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:766)
+    	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestTemplateMethod(TimeoutExtension.java:94)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:231)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:209)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:141)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.lambda$execute$3(TestTemplateTestDescriptor.java:109)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+    	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:109)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:43)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+    	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+    	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+    	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+    	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+    	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+    	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+    	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+    	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+    	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+    	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+    	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+    	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+    	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+    	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+    	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+    	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+    	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+    Caused by: com.maxmind.db.DeserializationException: Error getting record for IP /216.160.83.60 -  Error creating object of type: IspResponse -  argument type mismatch in autonomous_system_number MMDB Type: java.lang.Integer Java Type: java.lang.Long
+    	at com.maxmind.db.Reader.getRecord(Reader.java:188)
+    	at com.maxmind.geoip2.DatabaseReader.get(DatabaseReader.java:285)
+    	at com.maxmind.geoip2.DatabaseReader.getIsp(DatabaseReader.java:744)
+    	at com.maxmind.geoip2.DatabaseReader.isp(DatabaseReader.java:727)
+    	at org.logstash.filters.geoip.GeoIPFilter.retrieveIspGeoData(GeoIPFilter.java:397)
+    	... 146 more
+    Caused by: com.maxmind.db.DeserializationException: Error creating object of type: IspResponse -  argument type mismatch in autonomous_system_number MMDB Type: java.lang.Integer Java Type: java.lang.Long
+    	at com.maxmind.db.Decoder.decodeMapIntoObject(Decoder.java:454)
+    	at com.maxmind.db.Decoder.decodeMap(Decoder.java:337)
+    	at com.maxmind.db.Decoder.decodeByType(Decoder.java:158)
+    	at com.maxmind.db.Decoder.decode(Decoder.java:135)
+    	at com.maxmind.db.Decoder.decode(Decoder.java:72)
+    	at com.maxmind.db.Reader.resolveDataPointer(Reader.java:413)
+    	at com.maxmind.db.Reader.getRecord(Reader.java:185)
+    	... 150 more
+    Caused by: java.lang.IllegalArgumentException: argument type mismatch
+    	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:65)
+    	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+    	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+    	at com.maxmind.db.Decoder.decodeMapIntoObject(Decoder.java:437)
+    	... 156 more
+    Caused by: java.lang.ClassCastException: Cannot cast java.lang.Integer to java.lang.Long
+    	at java.base/java.lang.Class.cast(Class.java:4067)
+    	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+    	... 159 more
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [4] src/test/resources/maxmind-test-data/GeoIP2-ISP-Test.mmdb PASSED
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [5] src/test/resources/maxmind-test-data/GeoLite2-ASN-Test.mmdb STARTED
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [5] src/test/resources/maxmind-test-data/GeoLite2-ASN-Test.mmdb STANDARD_OUT
+    [ERROR] 2026-02-06 17:29:30.628 [Test worker] GeoIPFilter - Error from GeoIP database. field=ip, value=216.160.83.60
+    org.logstash.filters.geoip.GeoIPFilter$GeoIp2InvalidCustomFieldException: The database contains invalid custom field, which caused deserialization to fail.
+    	at org.logstash.filters.geoip.GeoIPFilter.retrieveAsnGeoData(GeoIPFilter.java:443)
+    	at org.logstash.filters.geoip.GeoIPFilter.handleEvent(GeoIPFilter.java:181)
+    	at org.logstash.filters.geoip.GeoIPFilterTest.givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(GeoIPFilterTest.java:281)
+    	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+    	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:766)
+    	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:131)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:156)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:147)
+    	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestTemplateMethod(TimeoutExtension.java:94)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:103)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:93)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:106)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:64)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:45)
+    	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:37)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:92)
+    	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:86)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$8(TestMethodTestDescriptor.java:217)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:213)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:138)
+    	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:68)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:231)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask$DefaultDynamicTestExecutor.execute(NodeTestTask.java:209)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:141)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.lambda$execute$3(TestTemplateTestDescriptor.java:109)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+    	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
+    	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1708)
+    	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+    	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+    	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+    	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+    	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:109)
+    	at org.junit.jupiter.engine.descriptor.TestTemplateTestDescriptor.execute(TestTemplateTestDescriptor.java:43)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:156)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:41)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:160)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:146)
+    	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:144)
+    	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:143)
+    	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:100)
+    	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
+    	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+    	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:107)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+    	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+    	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+    	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
+    	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.processAllTestClasses(JUnitPlatformTestClassProcessor.java:119)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor$CollectAllTestClassesExecutor.access$000(JUnitPlatformTestClassProcessor.java:94)
+    	at org.gradle.api.internal.tasks.testing.junitplatform.JUnitPlatformTestClassProcessor.stop(JUnitPlatformTestClassProcessor.java:89)
+    	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+    	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+    	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+    	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+    	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+    	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+    	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+    	at jdk.proxy1/jdk.proxy1.$Proxy2.stop(Unknown Source)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+    	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+    	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+    	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+    	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+    	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+    	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+    Caused by: com.maxmind.db.DeserializationException: Error getting record for IP /216.160.83.60 -  Error creating object of type: AsnResponse -  argument type mismatch in autonomous_system_number MMDB Type: java.lang.Integer Java Type: java.lang.Long
+    	at com.maxmind.db.Reader.getRecord(Reader.java:188)
+    	at com.maxmind.geoip2.DatabaseReader.get(DatabaseReader.java:285)
+    	at com.maxmind.geoip2.DatabaseReader.getAsn(DatabaseReader.java:559)
+    	at com.maxmind.geoip2.DatabaseReader.asn(DatabaseReader.java:543)
+    	at org.logstash.filters.geoip.GeoIPFilter.retrieveAsnGeoData(GeoIPFilter.java:441)
+    	... 146 more
+    Caused by: com.maxmind.db.DeserializationException: Error creating object of type: AsnResponse -  argument type mismatch in autonomous_system_number MMDB Type: java.lang.Integer Java Type: java.lang.Long
+    	at com.maxmind.db.Decoder.decodeMapIntoObject(Decoder.java:454)
+    	at com.maxmind.db.Decoder.decodeMap(Decoder.java:337)
+    	at com.maxmind.db.Decoder.decodeByType(Decoder.java:158)
+    	at com.maxmind.db.Decoder.decode(Decoder.java:135)
+    	at com.maxmind.db.Decoder.decode(Decoder.java:72)
+    	at com.maxmind.db.Reader.resolveDataPointer(Reader.java:413)
+    	at com.maxmind.db.Reader.getRecord(Reader.java:185)
+    	... 150 more
+    Caused by: java.lang.IllegalArgumentException: argument type mismatch
+    	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:65)
+    	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+    	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+    	at com.maxmind.db.Decoder.decodeMapIntoObject(Decoder.java:437)
+    	... 156 more
+    Caused by: java.lang.ClassCastException: Cannot cast java.lang.Integer to java.lang.Long
+    	at java.base/java.lang.Class.cast(Class.java:4067)
+    	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+    	... 159 more
+
+GeoIPFilterTest > givenDatabaseWithCustomizedFieldWhenItsAccessedTheCustomizedIPShouldntThrowAnyErrorAndReportTheLookupAsFailure(Path) > [5] src/test/resources/maxmind-test-data/GeoLite2-ASN-Test.mmdb PASSED
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.7/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2s
+9 actionable tasks: 8 executed, 1 up-to-date
+> Task :generateGemJarRequiresFile
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :jar UP-TO-DATE
+> Task :unzip UP-TO-DATE
+> Task :vendor
+
+BUILD SUCCESSFUL in 319ms
+5 actionable tasks: 2 executed, 3 up-to-date
+WARNING:  License identifier 'Apache License (2.0)' is invalid. Use an identifier from
+https://spdx.org/licenses or 'Nonstandard' for a nonstandard license,
+or set it to nil if you don't want to specify a license.
+Did you mean 'Apache-2.0'?
+WARNING:  open-ended dependency on logstash-devutils (>= 0, development) is not recommended
+  use a bounded requirement, such as "~> x.y"
+WARNING:  open-ended dependency on insist (>= 0, development) is not recommended
+  use a bounded requirement, such as "~> x.y"
+WARNING:  open-ended dependency on benchmark-ips (>= 0, development) is not recommended
+  use a bounded requirement, such as "~> x.y"
+WARNING:  open-ended dependency on logstash-core (>= 8.0.0) is not recommended
+  if logstash-core is semantically versioned, use:
+    add_runtime_dependency "logstash-core", "~> 8.0", ">= 8.0.0"
+WARNING:  make sure you specify the oldest ruby version constraint (like ">= 3.0") that you want your gem to support by setting the `required_ruby_version` gemspec attribute
+WARNING:  See https://guides.rubygems.org/specification-reference/ for help
+  Successfully built RubyGem
+  Name: logstash-filter-geoip
+  Version: 7.3.3
+  File: logstash-filter-geoip-7.3.3-java.gem
